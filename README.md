@@ -1,5 +1,5 @@
 # ContactDatabase
- A fake movie ticket api for booking movie tickets.
+Basic GUI to collect User Data
 
 ## Commands to Run Projects
 • npm i express
