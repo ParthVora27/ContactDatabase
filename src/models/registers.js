@@ -1,0 +1,32 @@
+const mongoose = require("mongoose");
+
+const userSchema = new mongoose.Schema( {
+    name : {
+        type:String,
+        required:true,
+        trim:true //removes unwanted space
+    },
+    subject : {
+        type:String,
+        trim:true
+    },
+    phone : {
+        type:Number,
+        required:true,
+        trim:true
+    },
+    email : {
+        type:String,
+        required:true,
+        trim:true
+    },
+    message : {
+        type:String,
+        trim:true
+    }
+})
+
+//we need to create a collection
+const Register = new mongoose.model("User", userSchema);
+
+module.exports = Register;

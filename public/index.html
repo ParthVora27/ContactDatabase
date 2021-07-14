@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Contact us form validation Using Javascript</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://unpkg.com/tailwindcss@^2/dist/tailwind.min.css" rel="stylesheet">
+</head>
+
+<body>
+    <div class="w-screen h-screen flex justify-center items-center font-serif font-medium text-2xl text-center bg-cover bg-no-repeat bg-center"
+        style="background-image:url(https://images.unsplash.com/32/Mc8kW4x9Q3aRR3RkP5Im_IMG_4417.jpg?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1050&q=80)">
+        <div class="inline-block p-8">
+            <h2 class=" font-extrabold text-5xl pb-8 text-white">Contact Database</h2>
+            <div>
+                <form action="/register" method="POST" id="myform">
+                    <div class="input_field">
+                        <input class=" outline-none border-2 border-white rounded " type="text" placeholder="Name"
+                            name="name" id="name" required>
+                    </div>
+                    <div class="input_field mt-3">
+                        <input class=" outline-none border-2 border-white rounded " type="text" placeholder="Subject"
+                            name="subject" id="subject">
+                    </div>
+                    <div class="input_field mt-3">
+                        <input class=" outline-none border-2 border-white rounded " type="text" placeholder="Phone"
+                            name="phone" id="phone" required>
+                    </div>
+                    <div class="input_field mt-3">
+                        <input class=" outline-none border-2 border-white rounded "
+                            class=" outline-none border-2 border-white rounded " type="text" placeholder="Email"
+                            name="email" id="email" required>
+                    </div>
+                    <div class="input_field mt-3">
+                        <textarea class=" outline-none border-2 border-white rounded " placeholder="Message"
+                            name="message" id="message"></textarea>
+                    </div>
+                    <div class="btn pt-4">
+                        <input class="outline-none border-2 border-white rounded-2xl  px-8" type="submit">
+                    </div>
+                </form>
+            </div>
+        </div>
+    </div>
+</body>
+
+<script src="script.js"></script>
+
+</html>
