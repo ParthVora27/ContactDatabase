@@ -2,9 +2,9 @@
 Basic GUI to collect User Data
 
 ## Commands to Run Projects
-• npm i express
-• npm i express
-• npm run dev
+ - npm i express           
+ - npm i mongoose
+ - npm run start
 
 ## Features
  - Contact GUI with collects data 
