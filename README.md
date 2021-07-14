@@ -7,5 +7,5 @@ Basic GUI to collect User Data
  - npm run start
 
 ## Features
- - Contact GUI with collects data 
- - Saves Data to Database for future reference
+ - Contact GUI with collects data.
+ - Saves Data to Database for future reference.
